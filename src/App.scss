@@ -1,0 +1,49 @@
+body {
+  padding: 30px;
+}
+
+.weekBtns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+
+  .btns {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: blue;
+  }
+}
+
+.timezone {
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  select {
+    width: 100%;
+    background-color: white;
+    border: 1px solid gray;
+  }
+}
+
+.weekName {
+  background-color: #f5f5f5;
+  padding: 25px;
+
+  p {
+    color: red;
+  }
+}
+
+.checkboxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+
+  .checkboxWrapper {
+    flex-basis: calc(12%);
+  }
+}
